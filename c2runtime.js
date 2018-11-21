@@ -29996,7 +29996,6 @@ cr.getObjectRefTable = function () {
 		cr.plugins_.Sprite.prototype.acts.SetX,
 		cr.plugins_.Sprite.prototype.exps.X,
 		cr.behaviors.Platform.prototype.cnds.OnLand,
-		cr.plugins_.Touch.prototype.cnds.OnTapGesture,
 		cr.system_object.prototype.acts.ResetGlobals
 	];
 };
