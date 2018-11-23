@@ -30523,6 +30523,7 @@ cr.getObjectRefTable = function () {
 		cr.plugins_.Sprite.prototype.exps.X,
 		cr.behaviors.Platform.prototype.cnds.OnLand,
 		cr.plugins_.LocalStorage.prototype.cnds.OnItemGet,
+		cr.system_object.prototype.exps["int"],
 		cr.plugins_.LocalStorage.prototype.exps.ItemValue,
 		cr.system_object.prototype.acts.ResetGlobals,
 		cr.system_object.prototype.cnds.Compare,
