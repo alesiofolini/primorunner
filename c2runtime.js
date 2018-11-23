@@ -30494,6 +30494,9 @@ cr.getObjectRefTable = function () {
 		cr.plugins_.TiledBg.prototype.acts.SetX,
 		cr.plugins_.TiledBg.prototype.exps.X,
 		cr.system_object.prototype.cnds.OnLayoutStart,
+		cr.plugins_.LocalStorage.prototype.acts.CheckItemExists,
+		cr.plugins_.LocalStorage.prototype.cnds.OnItemMissing,
+		cr.plugins_.LocalStorage.prototype.acts.SetItem,
 		cr.behaviors.Bullet.prototype.acts.SetAngleOfMotion,
 		cr.plugins_.LocalStorage.prototype.acts.GetItem,
 		cr.behaviors.Platform.prototype.cnds.IsOnFloor,
@@ -30525,8 +30528,7 @@ cr.getObjectRefTable = function () {
 		cr.plugins_.LocalStorage.prototype.cnds.OnItemGet,
 		cr.plugins_.LocalStorage.prototype.exps.ItemValue,
 		cr.system_object.prototype.acts.ResetGlobals,
-		cr.system_object.prototype.cnds.Compare,
-		cr.plugins_.LocalStorage.prototype.acts.SetItem
+		cr.system_object.prototype.cnds.Compare
 	];
 };
 
