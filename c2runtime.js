@@ -31472,7 +31472,6 @@ cr.getObjectRefTable = function () {
 		cr.plugins_.Browser,
 		cr.plugins_.Button.prototype.cnds.OnClicked,
 		cr.plugins_.Browser.prototype.acts.RequestFullScreen,
-		cr.plugins_.Browser.prototype.acts.LockOrientation,
 		cr.system_object.prototype.acts.GoToLayout,
 		cr.plugins_.TiledBg.prototype.cnds.CompareX,
 		cr.plugins_.TiledBg.prototype.exps.Width,
@@ -31512,6 +31511,8 @@ cr.getObjectRefTable = function () {
 		cr.plugins_.LocalStorage.prototype.cnds.OnItemGet,
 		cr.system_object.prototype.exps["int"],
 		cr.plugins_.LocalStorage.prototype.exps.ItemValue,
+		cr.plugins_.Browser.prototype.cnds.IsFullscreen,
+		cr.plugins_.Browser.prototype.acts.LockOrientation,
 		cr.system_object.prototype.acts.ResetGlobals,
 		cr.system_object.prototype.cnds.Compare,
 		cr.plugins_.LocalStorage.prototype.acts.SetItem
